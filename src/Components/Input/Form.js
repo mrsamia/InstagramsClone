@@ -11,7 +11,8 @@ function Form(props) {
                 </div>
                 <Input name="fname" placeholder='Phone number, username, or email' />
                 <Input name="password" placeholder='Password' />
-                <Button name="log in" />
+                <Button name="Log In" className="loginBtn" />
+                <div className='or-section'>OR</div>
             </div>
         </div>
     );
