@@ -4,7 +4,7 @@ function FooterItems(props) {
     return (
         <ul>
             <li>
-                <a href="" class="pad">{props.name}</a>
+                <a href="" class="footerItems">{props.name}</a>
             </li>
         </ul>
     );

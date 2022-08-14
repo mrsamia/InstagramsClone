@@ -7,9 +7,6 @@ import Footer from '../Footer/Footer';
 function Form(props) {
     return (
         <div className='container'>
-            {/* <div>
-                <img src={require('../images/instagramLogo.png')}/>
-            </div> */}
             <div className='formWrapper '>
                 <div className='imgWrapper'>
                     <img src={require('../images/instagramLogo.png')} />
@@ -38,10 +35,6 @@ function Form(props) {
                     <img className='StoreImg' src={require('../images/google.png')} />
                 </div>
             </div>
-            {/* <div>
-                <Footer />
-            </div> */}
-
         </div>
     );
 }
