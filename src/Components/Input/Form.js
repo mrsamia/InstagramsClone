@@ -2,11 +2,12 @@ import React from 'react';
 import Button from './Button';
 import Input from './Input';
 import { FaFacebookSquare } from "react-icons/fa";
+import Footer from '../Footer/Footer';
 
 function Form(props) {
     return (
         <div className='container'>
-            <div className='formWrapper'>
+            <div className='formWrapper '>
                 <div className='imgWrapper'>
                     <img src={require('../images/instagramLogo.png')} />
                 </div>
@@ -21,9 +22,23 @@ function Form(props) {
                     <p className='forgotText'>Forgot password?</p>
                 </div>
             </div>
-            <div className='formWrapper'>
-                <p className='DontHaveAccnt'>Don't have an account?</p>
+            <div>
+            <div className='formWrapper '>
+                <span className='DontHaveAccnt'>Don't have an account?</span><a><span className='signUP'>Sign Up</span></a>
             </div>
+            <div>
+                <p className='GetTheApp'>Get the app.</p>
+            </div>
+
+            <div className='Img'>
+                <img className='StoreImg' src={require('../images/apple.png')} />
+                <img className='StoreImg' src={require('../images/google.png')} />
+            </div>
+            </div>
+            <div>
+                <Footer/>
+            </div>
+
         </div>
     );
 }
