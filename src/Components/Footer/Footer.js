@@ -6,19 +6,18 @@ function Footer(props) {
     return (
         <div className='container'>
             <div className='footerWraper'>
-            {
-                FooterData.map((e)=>{
-                    return(
-                        <div className='as ItemsPad'>
-                        <FooterItems
-                        name={e.name}
-                        />
-                        </div>
-                    )
-                })
-                
-            }
-        </div>
+                {
+                    FooterData.map((e) => {
+                        return (
+                            <div className='as ItemsPad'>
+                                <FooterItems
+                                    name={e.name}
+                                />
+                            </div>
+                        )
+                    })
+                }
+            </div>
         </div>
     );
 }

@@ -8,9 +8,18 @@ function App() {
   return (
     <div className="App ">
       <div className='d-flex justify-content-center align-items-center'>
-        <Form />
+        <div>
+          <img src={require('./Components/images/phoneBackground.png')} />
+        </div>
+        <div>
+          <Form />
+        </div>
+
+
       </div>
-     
+      <div>
+        <Footer />
+      </div>
     </div>
   );
 }

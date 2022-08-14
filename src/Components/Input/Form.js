@@ -7,6 +7,9 @@ import Footer from '../Footer/Footer';
 function Form(props) {
     return (
         <div className='container'>
+            {/* <div>
+                <img src={require('../images/instagramLogo.png')}/>
+            </div> */}
             <div className='formWrapper '>
                 <div className='imgWrapper'>
                     <img src={require('../images/instagramLogo.png')} />
@@ -23,21 +26,21 @@ function Form(props) {
                 </div>
             </div>
             <div>
-            <div className='formWrapper '>
-                <span className='DontHaveAccnt'>Don't have an account?</span><a><span className='signUP'>Sign Up</span></a>
-            </div>
-            <div>
-                <p className='GetTheApp'>Get the app.</p>
-            </div>
+                <div className='formWrapper '>
+                    <span className='DontHaveAccnt'>Don't have an account?</span><a><span className='signUP'>Sign Up</span></a>
+                </div>
+                <div>
+                    <p className='GetTheApp'>Get the app.</p>
+                </div>
 
-            <div className='Img'>
-                <img className='StoreImg' src={require('../images/apple.png')} />
-                <img className='StoreImg' src={require('../images/google.png')} />
+                <div className='Img'>
+                    <img className='StoreImg' src={require('../images/apple.png')} />
+                    <img className='StoreImg' src={require('../images/google.png')} />
+                </div>
             </div>
-            </div>
-            <div>
-                <Footer/>
-            </div>
+            {/* <div>
+                <Footer />
+            </div> */}
 
         </div>
     );

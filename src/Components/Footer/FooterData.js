@@ -28,7 +28,7 @@ const FooterData = [
         name: "Top Accounts"
     },
 
-     {
+    {
         name: "Hashtags"
     },
     {
