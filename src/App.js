@@ -7,7 +7,7 @@ import Form from './Components/Input/Form';
 
 function App() {
   return (
-    <div className="App ">
+    <div className="text-center align-items-center d-flex flex-column justify-content-center vh-100 pt-5 ">
       <div className='d-flex justify-content-center align-items-center'>
         <div className='phoneImg'>
           <img className='screen' src={require('./Components/images/screen2.png')} />
