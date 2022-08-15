@@ -3,6 +3,7 @@ import './App.css';
 import Footer from './Components/Footer/Footer';
 import FooterItems from './Components/Footer/FooterItems';
 import Form from './Components/Input/Form';
+import EmailSignUp from './Pages/EmailSignUp';
 
 
 function App() {
@@ -26,6 +27,7 @@ function App() {
         <FooterItems name="English " />
         <FooterItems name="© 2022 Instagram from Meta" />
       </div>
+      <EmailSignUp/>
     </div>
   );
 }
