@@ -3,7 +3,7 @@ import Button from '../Components/Input/Button';
 import InstagramLogo from '../Components/InstagramLogo';
 import OR from '../Components/OR';
 import Input from '../Components/Input/Input';
-import DontHaveAccnt from '../Components/DontHaveAccnt';
+import DontHaveAccnt, { SignInPageData } from '../Components/DontHaveAccnt';
 import GetTheApp from '../Components/GetTheApp';
 import DwnldAppBtn from '../Components/DwnldAppBtn';
 
@@ -22,8 +22,8 @@ function EmailSignUp(props) {
                 <Input name="username" placeholder="Username" />
                 <Input name="password" placeholder='Password' />
                 <div>
-                    <p className='txt_p'>
-                        People who use our service may have uploaded your contact information to Instagram. Learn More
+                    <p className='txt_p pt-2'>
+                        People who use our service may have uploaded your contact information to Instagram. <a className='LearnMore'>Learn <br></br>More</a>
                     </p>
                 </div>
                 <div>
@@ -34,7 +34,7 @@ function EmailSignUp(props) {
                 <Button className="loginBtn" name="Sign Up" />
             </div>
             <div>
-                <DontHaveAccnt className='signUP' name="Sign Up" />
+                <DontHaveAccnt className='signUP' variant="SIGNUP"/>
                 <GetTheApp />
                 <DwnldAppBtn />
             </div>
