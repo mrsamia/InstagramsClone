@@ -11,8 +11,8 @@
 
 .inputWrapper {
     /* width: fit-content; */
-    width: 280px;
-    margin: 0 40px 6px;
+    width:100%;
+    margin: 0 0px 8px;
     /* padding-left: 10px; */
 }
 .main{
@@ -33,7 +33,7 @@
 }
 
 .loginBtn {
-    width: 280px;
+    width: 100%;
     color: white;
     margin-top: 8px;
     margin-bottom: 8px;
@@ -214,14 +214,24 @@ ul {
     text-decoration: none;
 }
 .Iconsize{
-    width: 120px;
-    height: 120px;
+    width: 55px;
+    height: 55px;
+   
+}
+.IconWraper{
+    height: 100px;
     padding-bottom: 10px;
+    border-radius: 50%;
+    border: 2px solid black;
+    padding: 20px;
+    margin-top: -30px;
+    width: 100px;
 }
 .TrbleLogIn{
     font-weight: 600;
     font-size: 16px;
     line-height: 24px;
+    padding-top: 15px;
 }
 .txt_epu{
     color: #8e8e8e;
@@ -230,8 +240,6 @@ ul {
     font-size: 14px;
     line-height: 18px;
     text-align: center;
-    padding-left: 30px;
-    padding-right: 30px;
 }
 .createNewAccnt{
     font-size: 14px;
@@ -251,12 +259,22 @@ ul {
 .BackToLoginWrapper{
     border: 1px solid #dbdbdb;
     height: 44px;
-    margin-top: 64px;
+    margin-top: 50px;
+    width: 380px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
     
 }
 .pad{
     padding-bottom: 0px!important;
+  
 }
 .restPassformWrapper{
     width: 380px !important;
+   
+}
+.cardpading{
+    padding: 40px;
 }
