@@ -2,11 +2,12 @@ import React from 'react';
 import Button from './Button';
 import Input from './Input';
 import GetTheApp from '../GetTheApp';
-import DontHaveAccnt, { SignUpPageData } from '../DontHaveAccnt';
+import DontHaveAccnt from '../DontHaveAccnt';
 import OR from '../OR';
 import DwnldAppBtn from '../DwnldAppBtn';
 import InstagramLogo from '../InstagramLogo';
 import LogInWithFacebook from '../LogInWithFacebook';
+import ForgotPass from '../ForgotPass';
 
 function Form(props) {
     return (
@@ -18,9 +19,7 @@ function Form(props) {
                 <Button name="Log In" className="loginBtn" />
                 <OR />
                 <LogInWithFacebook/>
-                <div className='forgotSection'>
-                    <p className='forgotText'>Forgot password?</p>
-                </div>
+                <ForgotPass/>
             </div>
             <div>
                 <DontHaveAccnt className='signUP' variant="LOGIN" />

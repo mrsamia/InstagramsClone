@@ -20,7 +20,7 @@ function DontHaveAccnt(props) {
 
     return (
         <div className='formWrapper '>
-            <span className='DontHaveAccnt'>{data.heading}</span><Link to={data.link}><span className={props.className}>{data.name}</span></Link>
+            <span className='DontHaveAccnt'>{data.heading}</span><Link to={data.link} style={{textDecoration:"none"}}><span className={props.className}>{data.name}</span></Link>
         </div>
     );
 }
