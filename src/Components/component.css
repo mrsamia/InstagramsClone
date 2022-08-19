@@ -22,7 +22,7 @@
     width: 360px;
     border: 1px solid #dbdbdb;
     margin: 0px 0px 10px;
-    padding: 17px 0px;
+    padding: 17px 40px;
     display: inline-block;
     background-color: rgba(var(--d87,255,255,255),1);
 }
@@ -265,6 +265,7 @@ ul {
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    margin-left: -42px;
     
 }
 .pad{
@@ -276,5 +277,5 @@ ul {
    
 }
 .cardpading{
-    padding: 40px;
+    padding-top: 40px;
 }

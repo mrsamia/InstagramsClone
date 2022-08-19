@@ -31,7 +31,7 @@ function ResetPassword(props) {
                 </div>
 
                 <div className='BackToLoginWrapper'>
-                    <BlackTextButton className="BackToLogin" name="Back To Login" />
+                    <BlackTextButton className="BackToLogin" name="Back To Login" link="/"/>
                 </div>
             </div>
 
