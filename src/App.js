@@ -8,7 +8,7 @@ import ResetPassword from './Pages/ResetPassword';
 
 function App() {
   return (
-    <div className="text-center align-items-center d-flex flex-column justify-content-center vh-100 pt-5 main ">
+    <div className="text-center align-items-center d-flex flex-column justify-content-center  pt-5 main ">
       <Routes>
         <Route path='/' element={ <SignIn />}/>
         <Route path='/emailsignup' element={ <EmailSignUp />}/>
