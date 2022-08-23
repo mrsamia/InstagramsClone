@@ -4,6 +4,7 @@ import EmailSignUp from './Pages/EmailSignUp';
 import SignIn from './Pages/SignIn';
 import { Routes, Route} from "react-router-dom";
 import ResetPassword from './Pages/ResetPassword';
+import Nav from './Components/Nav';
 
 
 function App() {
