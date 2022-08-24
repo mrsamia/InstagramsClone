@@ -29,7 +29,7 @@
 
 .imgWrapper {
     margin-top: 36px;
-    margin-bottom: 36px;
+    margin-bottom: 13px;
 }
 
 .loginBtn {
@@ -79,6 +79,7 @@
     color: #385185;
     font-size: 14px;
     font-weight: 600;
+    cursor: pointer;
 }
 
 .F-section {
@@ -180,17 +181,19 @@ ul {
     color: #8e8e8e;
     color: rgba(var(--f52,142,142,142),1);
     font-size: 12px;
-    line-height: 16px;
+    line-height: 16px;   
+}
+/* .txt_algn{
     margin: 10px 40px;
     text-align: center;
-}
+} */
 .txt_Ptitle{
     color: #8e8e8e;
     color: rgba(var(--f52,142,142,142),1);
     font-size: 17px;
     font-weight: 600;
     line-height: 20px;
-    margin: 0 40px 10px;
+    /* margin: 0 40px 10px; */
     text-align: center;
 }
 .logFbBtn{
@@ -283,4 +286,27 @@ ul {
     width: 100%;
     background-color: rgba(var(--d87,255,255,255),1);
     border-bottom: 1px solid rgba(var(--b6a,219,219,219),1);
+}
+.left_align{
+    text-align: left;
+}
+.UlListStyle{
+    list-style-type: disc;
+    line-height: 15px;
+    margin-bottom: 6px;
+}
+.txt_h6{
+    font-size: 18px;
+    line-height: 24px;
+}
+.RLPad{
+    padding-left: 31px!important;
+    width: 380px!important;
+    padding-right: 31px!important;
+}
+.NoSignUpBtn{
+    color: rgba(var(--d69,0,149,246),1);
+    border: none;
+    background-color: transparent;
+    w
 }

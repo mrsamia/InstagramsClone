@@ -13,7 +13,7 @@ function Form(props) {
     return (
         <div className='container'>
             <div className='formWrapper '>
-                <InstagramLogo />
+                <InstagramLogo className="pb-4" />
                 <Input name="fname" placeholder='Phone number, username, or email' />
                 <Input name="password" placeholder='Password' />
                 <Button name="Log In" className="loginBtn" />

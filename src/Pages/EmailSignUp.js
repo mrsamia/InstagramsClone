@@ -22,12 +22,12 @@ function EmailSignUp(props) {
                 <Input name="username" placeholder="Username" />
                 <Input name="password" placeholder='Password' />
                 <div>
-                    <p className='txt_p pt-2'>
+                    <p className='txt_p txt_algn pt-2'>
                         People who use our service may have uploaded your contact information to Instagram. <a className='LearnMore'>Learn <br></br>More</a>
                     </p>
                 </div>
                 <div>
-                    <p className='txt_p'>
+                    <p className='txt_p txt_algn'>
                         By signing up, you agree to our Terms , Privacy Policy and Cookies Policy .
                     </p>
                 </div>

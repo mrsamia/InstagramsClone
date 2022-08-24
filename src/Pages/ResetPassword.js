@@ -30,7 +30,7 @@ function ResetPassword(props) {
                         <div className='pt-3'>
                             <OR />
                         </div>
-                        <BlackTextButton className='createNewAccnt' name="Create New Account" />
+                        <BlackTextButton className='createNewAccnt' name="Create New Account" link="/emailsignup" />
                     </div>
 
                     <div className='BackToLoginWrapper'>

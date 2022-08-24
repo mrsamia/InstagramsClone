@@ -4,7 +4,7 @@ import EmailSignUp from './Pages/EmailSignUp';
 import SignIn from './Pages/SignIn';
 import { Routes, Route} from "react-router-dom";
 import ResetPassword from './Pages/ResetPassword';
-import Nav from './Components/Nav';
+import SetAccntWithFb from './Pages/SetAccntWithFb';
 
 
 function App() {
@@ -14,6 +14,7 @@ function App() {
         <Route path='/' element={ <SignIn />}/>
         <Route path='/emailsignup' element={ <EmailSignUp />}/>
         <Route path='/resetPassword' element={ <ResetPassword />}/>
+        <Route path='/setaccntwithfb' element={ <SetAccntWithFb />}/>
       </Routes>
 
     </div>
