@@ -1,9 +1,12 @@
 import React from 'react';
 import Button from '../Components/Input/Button';
+import Nav from '../Components/Nav';
 
 function SetAccntWithFb(props) {
     return (
-        <div className='d-flex justify-content-start align-items-start'>
+        <div>
+            <Nav/>
+        <div className='text-center align-items-center d-flex flex-column justify-content-center  pt-5 main'>
             <div className='container'>
                 <div className='formWrapper RLPad'>
                     <div>
@@ -56,6 +59,7 @@ function SetAccntWithFb(props) {
                     </div>
                 </div>
             </div>
+        </div>
         </div>
     );
 }

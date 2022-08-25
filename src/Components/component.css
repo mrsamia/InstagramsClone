@@ -286,6 +286,8 @@ ul {
     width: 100%;
     background-color: rgba(var(--d87,255,255,255),1);
     border-bottom: 1px solid rgba(var(--b6a,219,219,219),1);
+    padding: 20px;
+    position: fixed;
 }
 .left_align{
     text-align: left;
@@ -303,10 +305,12 @@ ul {
     padding-left: 31px!important;
     width: 380px!important;
     padding-right: 31px!important;
+    margin-top: 100px;
 }
 .NoSignUpBtn{
     color: rgba(var(--d69,0,149,246),1);
     border: none;
     background-color: transparent;
-    w
+    font-size: 14px;
+    font-weight: 600;
 }

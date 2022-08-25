@@ -9,7 +9,8 @@ import SetAccntWithFb from './Pages/SetAccntWithFb';
 
 function App() {
   return (
-    <div className="text-center align-items-center d-flex flex-column justify-content-center  pt-5 main ">
+    <div className=" ">
+
       <Routes>
         <Route path='/' element={ <SignIn />}/>
         <Route path='/emailsignup' element={ <EmailSignUp />}/>

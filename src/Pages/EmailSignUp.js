@@ -9,6 +9,7 @@ import DwnldAppBtn from '../Components/DwnldAppBtn';
 
 function EmailSignUp(props) {
     return (
+        <div className='text-center align-items-center d-flex flex-column justify-content-center  pt-5 main'>
         <div className='container'>
             <div className='formWrapper'>
                 <InstagramLogo />
@@ -38,6 +39,7 @@ function EmailSignUp(props) {
                 <GetTheApp />
                 <DwnldAppBtn />
             </div>
+        </div>
         </div>
     );
 }
