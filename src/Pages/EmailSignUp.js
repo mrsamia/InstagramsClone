@@ -6,6 +6,7 @@ import Input from '../Components/Input/Input';
 import DontHaveAccnt, { SignInPageData } from '../Components/DontHaveAccnt';
 import GetTheApp from '../Components/GetTheApp';
 import DwnldAppBtn from '../Components/DwnldAppBtn';
+import Footer from '../Components/Footer/Footer';
 
 function EmailSignUp(props) {
     return (
@@ -39,7 +40,9 @@ function EmailSignUp(props) {
                 <GetTheApp />
                 <DwnldAppBtn />
             </div>
+            <Footer limit={13}/>
         </div>
+     
         </div>
     );
 }

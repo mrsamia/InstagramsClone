@@ -7,7 +7,7 @@ function Footer(props) {
         <div className='container'>
             <div className='footerWraper'>
                 {
-                    FooterData.map((e) => {
+                    FooterData.slice(0, props.limit-1).map((e) => {
                         return (
                             <div className='as ItemsPad'>
                                 <FooterItems

@@ -17,7 +17,7 @@ function SignIn(props) {
         </div>
         <div className='d-flex justify-content-center'>
         <div>
-          <Footer />
+          <Footer limit={18}/>
         </div>
       </div>
       <div className='d-flex justify-content-center pt-2'>

@@ -5,6 +5,7 @@ import OR from '../Components/OR';
 import BlackTextButton from '../Components/BlackTextButton';
 import { VscLock } from "react-icons/vsc";
 import Nav from '../Components/Nav';
+import Footer from '../Components/Footer/Footer';
 function ResetPassword(props) {
     return (
         <div>
@@ -39,6 +40,7 @@ function ResetPassword(props) {
                         </div>
                     </div>
                 </div>
+                <Footer limit={13}/>
             </div>
         </div>
     );
