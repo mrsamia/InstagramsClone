@@ -174,7 +174,7 @@ ul {
 }
 .footerWraper{
     padding-top: 100px;
-    max-width: 830px;
+    width: 100%;
     line-height: 1px;
 }
 .txt_p{

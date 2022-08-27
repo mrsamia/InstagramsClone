@@ -6,12 +6,13 @@ import BlackTextButton from '../Components/BlackTextButton';
 import { VscLock } from "react-icons/vsc";
 import Nav from '../Components/Nav';
 import Footer from '../Components/Footer/Footer';
+import FooterItems from '../Components/Footer/FooterItems';
 function ResetPassword(props) {
     return (
         <div>
             <Nav />
             <div className='text-center align-items-center d-flex flex-column justify-content-center  pt-5 main'>
-                <div className='container ' style={{marginTop:" -196px"}}>
+                <div className='container '>
                     <div className='formWrapper pad restPassformWrapper'>
                         <div className='cardpading'>
                             <div className='d-flex justify-content-center'>
@@ -40,7 +41,11 @@ function ResetPassword(props) {
                         </div>
                     </div>
                 </div>
-                <Footer limit={13}/>
+                <Footer limit={14} />
+                <div className='d-flex justify-content-center pt-2'>
+                    <FooterItems name="English " />
+                    <FooterItems name="© 2022 Instagram from Meta" />
+                </div>
             </div>
         </div>
     );
