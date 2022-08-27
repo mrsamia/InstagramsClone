@@ -41,11 +41,14 @@ function ResetPassword(props) {
                         </div>
                     </div>
                 </div>
+                <div>
                 <Footer limit={14} />
                 <div className='d-flex justify-content-center pt-2'>
                     <FooterItems name="English " />
                     <FooterItems name="© 2022 Instagram from Meta" />
                 </div>
+                </div>
+                
             </div>
         </div>
     );

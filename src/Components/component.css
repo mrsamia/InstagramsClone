@@ -314,3 +314,10 @@ ul {
     font-size: 14px;
     font-weight: 600;
 }
+.MWDvN{
+    max-width: 975px;
+    padding: 0px 40px;
+    /* width: 100%; */
+    display: flex;
+    justify-content: center;
+}
