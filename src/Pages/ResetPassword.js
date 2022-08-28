@@ -30,9 +30,13 @@ function ResetPassword(props) {
                             </div>
                             <Input name="MNE" placeholder='Email Phone or UserName' />
                             <Button className="loginBtn" name="Send Login Link" />
+                            <div>
+                                <a className='arWrW'>Can't reset your password?</a>
+                            </div>
                             <div className='pt-3'>
                                 <OR />
                             </div>
+
                             <BlackTextButton className='createNewAccnt' name="Create New Account" link="/emailsignup" />
                         </div>
 

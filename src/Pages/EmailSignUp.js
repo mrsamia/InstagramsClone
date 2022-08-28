@@ -11,7 +11,7 @@ import FooterItems from '../Components/Footer/FooterItems';
 
 function EmailSignUp(props) {
     return (
-        <div className='text-center align-items-center d-flex flex-column justify-content-center  pt-5 main'>
+        <div className='text-center align-items-center d-flex flex-column justify-content-center  pt-4 main'>
             <div className='container'>
                 <div className='formWrapper'>
                     <InstagramLogo />
@@ -42,7 +42,7 @@ function EmailSignUp(props) {
                     <DwnldAppBtn />
                 </div>
                 <Footer limit={14} />
-                <div className='d-flex justify-content-center pt-2'>
+                <div className='d-flex justify-content-center'>
                     <FooterItems name="English " />
                     <FooterItems name="© 2022 Instagram from Meta" />
                 </div>
