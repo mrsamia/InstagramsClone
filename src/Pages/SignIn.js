@@ -5,7 +5,7 @@ import Form from '../Components/Input/Form';
 
 function SignIn(props) {
     return (
-      <div className='text-center align-items-center d-flex flex-column justify-content-center  pt-5 main'>
+      <div className='text-center align-items-center d-flex flex-column justify-content-center  main'>
         <div className='d-flex justify-content-center align-items-center'>
             <div className='phoneImg'>
                 <img className='screen' src={require('../Components/images/screen2.png')} />
@@ -16,7 +16,7 @@ function SignIn(props) {
             
         </div>
         <div className='d-flex justify-content-center'>
-        <div>
+        <div className='mTb'>
           <Footer limit={18}/>
         </div>
       </div>
