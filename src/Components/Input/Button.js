@@ -1,11 +1,20 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 function Button(props) {
-    return (
-        <div>
+
+    if (props.link) {
+        return (
+            <div>
+                <Link to={props.link}><button className={props.className}>{props.name}</button></Link>
+            </div>
+        );
+    } else {
+        return (
             <button className={props.className}>{props.name}</button>
-        </div>
-    );
+        )
+    }
+
 }
 
 export default Button;

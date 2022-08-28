@@ -8,6 +8,7 @@ import GetTheApp from '../Components/GetTheApp';
 import DwnldAppBtn from '../Components/DwnldAppBtn';
 import Footer from '../Components/Footer/Footer';
 import FooterItems from '../Components/Footer/FooterItems';
+import EnglishSelectOption from '../Components/Footer/EnglishSelectOption';
 
 function EmailSignUp(props) {
     return (
@@ -18,7 +19,7 @@ function EmailSignUp(props) {
                     <div>
                         <p className='txt_Ptitle'>Sign up to see photos and videos from your friends.</p>
                     </div>
-                    <Button className="logFbBtn" name="Log in with Facebook" />
+                    <Button className="logFbBtn" name="Log in with Facebook" link='/setaccntwithfb'/>
                     <OR />
                     <Input name="MNE" placeholder='Mobile Number or Email' />
                     <Input name="fullname" placeholder="Full Name" />
@@ -43,7 +44,7 @@ function EmailSignUp(props) {
                 </div>
                 <Footer limit={14} />
                 <div className='d-flex justify-content-center'>
-                    <FooterItems name="English " />
+                    <EnglishSelectOption />
                     <FooterItems name="© 2022 Instagram from Meta" />
                 </div>
             </div>

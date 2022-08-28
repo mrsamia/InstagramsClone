@@ -141,6 +141,8 @@
     font-size: 12px;
     line-height: 16px;
     color: rgba(var(--f52, 142, 142, 142), 1);
+    border: none;
+    background-color: transparent;
 }
 
 .ItemsPad {
@@ -319,7 +321,7 @@ ul {
 .MWDvN{
     max-width: 975px;
     padding: 0px 40px;
-    /* width: 100%; */
+    cursor: pointer;
     display: flex;
     justify-content: center;
 }

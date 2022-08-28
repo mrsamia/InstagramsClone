@@ -7,6 +7,7 @@ import { VscLock } from "react-icons/vsc";
 import Nav from '../Components/Nav';
 import Footer from '../Components/Footer/Footer';
 import FooterItems from '../Components/Footer/FooterItems';
+import EnglishSelectOption from '../Components/Footer/EnglishSelectOption';
 function ResetPassword(props) {
     return (
         <div>
@@ -46,13 +47,13 @@ function ResetPassword(props) {
                     </div>
                 </div>
                 <div>
-                <Footer limit={14} />
-                <div className='d-flex justify-content-center pt-2'>
-                    <FooterItems name="English " />
-                    <FooterItems name="© 2022 Instagram from Meta" />
+                    <Footer limit={14} />
+                    <div className='d-flex justify-content-center pt-2'>
+                        <EnglishSelectOption />
+                        <FooterItems name="© 2022 Instagram from Meta" />
+                    </div>
                 </div>
-                </div>
-                
+
             </div>
         </div>
     );
