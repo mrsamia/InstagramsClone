@@ -5,7 +5,7 @@ function Nav(props) {
     return (
         <div className='lz6s'>
             <div className='MWDvN'>
-           <Link to="/"> <img src={require('../Components/images/brandLogo.png')} /></Link>
+                <Link to="/"> <img src={require('../Components/images/brandLogo.png')} /></Link>
             </div>
         </div>
     );
